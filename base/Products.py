@@ -1,0 +1,93 @@
+import json
+products = [
+    {
+        '_id': 1,
+        'name': "Lachha Parantha",
+        'image': "static/images/",
+        'brand': "brand 1",
+        'category': "1",
+        'price': 9.99,
+        'ratings': 4.5,
+        'description': " Laccha Paratha is a popular variant of paratha from North Indian cuisine. These are whole"
+                       " wheat flatbreads made with a simple unleavened dough consisting of basic ingredients like "
+                       "whole wheat flour, salt and ghee or oil.",
+        'review_num': 12,
+        'count_in_stock': 10,
+    },
+    {
+        '_id': 2,
+        'name': "Green Chatney",
+        'image': "static/images/",
+        'brand': "brand 1",
+        'category': "2",
+        'price': 9.99,
+        'ratings': 0.5,
+        'description': "Green chutney is one of the healthiest & is used often in Indian cuisine as a side with snacks,"
+                       " sandwiches and also to make chaats. This chutney aids digestion & enhances the taste, aroma"
+                       " and nutrition of any dish.",
+        'review_num': 1,
+        'count_in_stock': 1,
+    },
+    {
+        '_id': 3,
+        'name': "Pickle Onion",
+        'image': "static/images/",
+        'brand': "brand 2",
+        'category': "1",
+        'price': 15.79,
+        'ratings': 2.0,
+        'description': "Healthy treat to be eaten during or after the meal directly to add more flavour to the meal",
+        'review_num': 2,
+        'count_in_stock': 5,
+    },
+    {
+        '_id': 5,
+        'name': "Product 5",
+        'image': "static/images/",
+        'brand': "brand 2",
+        'category': "2",
+        'price': 12.99,
+        'ratings': 2.4,
+        'description': "hello cwnjvkrb3iwkcowjbdiwkjehcwojbviqkwjno2w9b w",
+        'review_num': 360,
+        'count_in_stock': 5,
+    },
+    {
+        '_id': 6,
+        'name': "Product 6",
+        'image': "static/images/",
+        'brand': "brand 2",
+        'category': "1",
+        'price': 1.99,
+        'ratings': 5.0,
+        'description': "hello cwnjvkrb3iwkcowjbdiwkjehcwojbviqkwjno2w9b w",
+        'review_num': 50,
+        'count_in_stock': 0,
+    },
+    {
+        '_id': 7,
+        'name': "Product 7",
+        'image': "static/images/",
+        'brand': "brand 1",
+        'category': "2",
+        'price': 10.0,
+        'ratings': 3.3,
+        'description': "hello cwnjvkrb3iwkcowjbdiwkjehcwojbviqkwjno2w9b w",
+        'review_num': 4,
+        'count_in_stock': 10,
+    },
+    {
+        '_id': 8,
+        'name': "Product 8",
+        'brand': "brand 2",
+        'category': "1",
+        'price': 1.0,
+        'ratings': 4.7,
+        'description': "hello cwnjvkrb3iwkcowjbdiwkjehcwojbviqkwjno2w9b w",
+        'review_num': 30,
+        'count_in_stock': 6,
+    },
+]
+
+y = json.dumps(products)
+print(y)
