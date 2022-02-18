@@ -1,7 +1,7 @@
 asgiref==3.4.1
 boto3==1.21.0
 botocore==1.24.0
-dataclasses==0.8
+dataclasses==0.6
 Django==3.2.11
 django-cors-headers==3.10.1
 django-storages==1.12.3
