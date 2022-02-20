@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-4f^@t#i*(z@k3=y1e9ex3xv4q#%s4+xz_zy$mn=z9@u9421seg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost']
+ALLOWED_HOSTS = ['127.0.0.1','localhost','nlpshope.herokuapp.com']
 
 
 # Application definition
@@ -197,6 +197,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 AWS_ACCESS_KEY_ID = 'AKIA23UQXR27PJRFU6EX'
 AWS_SECRET_ACCESS_KEY = '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'
+
 AWS_STORAGE_BUCKET_NAME = 'nlps-bucket'
 AWS_QUERYSTRING_AUTH = False
 
