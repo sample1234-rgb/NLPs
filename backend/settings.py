@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-4f^@t#i*(z@k3=y1e9ex3xv4q#%s4+xz_zy$mn=z9@u9421seg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost']
+ALLOWED_HOSTS = ['127.0.0.1','localhost','nlpshope.herokuapp.com/']
 
 
 # Application definition
